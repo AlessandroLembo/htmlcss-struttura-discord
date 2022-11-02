@@ -21,6 +21,11 @@ backgorund-color: #b3f0ff celeste più chiaro */
     box-sizing: border-box;
 }
 
+/* Generics */
+.section-small{
+    height: 380px;
+}
+
 /* Intestazione */
 
 .header-top{
@@ -73,7 +78,6 @@ a{
 /* titolo e concept */
 .header-bottom{
     background-color:#0000ff;
-    height: 380px;
     padding: 40px;
 }
 
@@ -85,5 +89,25 @@ a{
     border: 1px dashed black;
 }
 
+/* prima sezione del corpo */
+.first-content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
+.medium-box, .small-box{
+    min-height: 330px;
+    border: 1px dashed black;
+}
+
+.medium-box{
+    width: 45%;
+    background-color: #33d6ff;
+}
+
+.small-box{
+    width: 20%;
+    background-color: #ffb3d9;
+}
 

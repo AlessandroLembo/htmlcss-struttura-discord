@@ -21,7 +21,7 @@ backgorund-color: #b3f0ff celeste più chiaro */
     box-sizing: border-box;
 }
 
-/* Generics */
+/* Intestazione */
 
 .header-top{
     background-color: #99ebff;
@@ -37,7 +37,7 @@ backgorund-color: #b3f0ff celeste più chiaro */
     border: 1px dashed black;
 }
 
-.menù-left{
+.menù-left, .menù-right{
     flex-basis: 12%;
     line-height: 40px;
     padding: 0 10px;
@@ -49,10 +49,7 @@ backgorund-color: #b3f0ff celeste più chiaro */
 }
 
 .menù-right{
-    flex-basis: 12%;
-    line-height: 40px;
     text-align: right;
-    padding: 0 10px;
 }
 
 .list{

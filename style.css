@@ -1,20 +1,4 @@
-/* color 
-backgorund-color: #99ebff celeste
-backgorund-color: #ffbb33 dorato
-backgorund-color: #0000ff blue
-backgorund-color: #ffb3ff rosa scuro
-backgorund-color: #33d6ff celeste più scuro blocchi centrali
-backgorund-color: #ffb3d9 rosa chiaro
-backgorund-color: #e6e6ff grigio chiaro
-backgorund-color: #00b33c verde
-backgorund-color: bianco
-backgorund-color: nero
-backgorund-color: #ffb3e6 rosa
-backgorund-color: #33ffff azzurro
-backgorund-color: #b3f0ff celeste più chiaro */
-
-
-/* Reset */
+/* Css Reset */
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +12,10 @@ backgorund-color: #b3f0ff celeste più chiaro */
 
 .section-large{
     height: 700px;
+}
+
+.last-section{
+    height: 80px;
 }
 
 /* Intestazione */
@@ -53,7 +41,7 @@ backgorund-color: #b3f0ff celeste più chiaro */
 }
 
 .menù-center{
-    flex-basis: 36%;
+    flex-basis: 41%;
     height: 40px;
 }
 
@@ -147,9 +135,38 @@ a{
     border: 1px dashed black;
 }
 
-.extrasmall-box{
+.extrasmall-box{ 
     width: calc((65% - 17%) / 4);
     background-color:#33ffff;
     border: 1px dashed white;
+}
+
+
+/* footer scetion */
+.closed{
+    background-color:#001a00;
+    border-top: 1px solid white;
+}
+
+.footer-box{
+    background-color: #b3f0ff;
+    width: 65%;
+    height: 60px;
+    margin: 15px auto;
+}
+    
+.link-pages{
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-pink{
+    border: 1px dashed black;
+    background-color:#ffb3d9;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
 

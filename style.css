@@ -26,6 +26,10 @@ backgorund-color: #b3f0ff celeste più chiaro */
     height: 380px;
 }
 
+.section-large{
+    height: 700px;
+}
+
 /* Intestazione */
 
 .header-top{
@@ -78,12 +82,12 @@ a{
 /* titolo e concept */
 .header-bottom{
     background-color:#0000ff;
-    padding: 40px;
+    padding: 25px;
 }
 
 .title{
     width: 50%;
-    min-height: 300px;
+    min-height: 330px;
     background-color: #ffb3ff;
     margin: 0 auto;
     border: 1px dashed black;
@@ -114,5 +118,18 @@ a{
 /* seconda sezione del corpo */
 .colour-content{
     background-color:#e6e6ff;
+}
+
+/*terza sezione del corpo */
+.space{
+    padding: 25px 0;
+}
+
+.big-box{
+    width: 65%;
+    min-height: 650px;
+    background-color:#00b33c;
+    margin: 0, auto;
+    border: 1px dashed black;
 }
 

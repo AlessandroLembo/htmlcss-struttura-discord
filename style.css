@@ -100,17 +100,17 @@ a{
     align-items: center; 
 }
 
-.medium-box, .small-box{
+.big-box, .medium-box{
     min-height: 330px;
     border: 1px dashed black;
 }
 
-.medium-box{
+.big-box{
     width: 45%;
     background-color: #33d6ff;
 }
 
-.small-box{
+.medium-box{
     width: 20%;
     background-color: #ffb3d9;
 }
@@ -125,11 +125,31 @@ a{
     padding: 25px 0;
 }
 
-.big-box{
+.large-box{
     width: 65%;
     min-height: 650px;
     background-color:#00b33c;
     margin: 0, auto;
     border: 1px dashed black;
+}
+
+/* quinta sezione */
+.black{
+    background-color:  #001a00;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 25px;
+}
+
+.small-box{
+    width: 17%;
+    background-color:#ffb3e6;
+    border: 1px dashed black;
+}
+
+.extrasmall-box{
+    width: calc((65% - 17%) / 4);
+    background-color:#33ffff;
+    border: 1px dashed white;
 }
 

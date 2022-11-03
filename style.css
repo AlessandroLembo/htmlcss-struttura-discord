@@ -6,6 +6,10 @@
 }
 
 /* Generics */
+.top-section{
+    height: 60px;
+}
+
 .section-small{
     height: 380px;
 }
@@ -21,8 +25,7 @@
 /* Intestazione */
 
 .header-top{
-    background-color: #99ebff;
-    height: 60px;
+    background-color: #99ebff; 
     display: flex;
     justify-content: center;
     align-items: center;

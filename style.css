@@ -19,7 +19,7 @@
 }
 
 .last-section{
-    height: 80px;
+    height: 90px;
 }
 
 /* Intestazione */
@@ -129,7 +129,7 @@ a{
     background-color:  #001a00;
     display: flex;
     justify-content: center;
-    padding: 5px 0 25px;
+    padding: 25px 0;
 }
 
 .small-box{
